@@ -3,19 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <title>Contact Form</title>
-        <!-- Add style.CSS here -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <header>
-            <h2>
-                Contact
-            </h2>
-            <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <header class="main">
+            <h1>Abigail DeVries</h1>
+            <div class="menu">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
         </header>
+        <div>
+            <h2>Contact</h2>
         <form>
             Name:<br>
             <input type="text" name="name">
@@ -24,7 +26,7 @@
             <input type="text" name="email">
             <br>
             Message:<br>
-            <input type="text" name="message">
+            <textarea name="email" rows="4" cols="30"></textarea>
             <br><br>
             <input type="submit" value="Submit">
         </form>
