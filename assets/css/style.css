@@ -129,15 +129,11 @@ input[type="submit"]{
 input[type="text"], textarea{
     width: 495px;
 }
-/* .comingSoon {   
-    background-image: url("../images/comingsoon.jpg"); 
-    background-size: 175px; }
-    */
 
 td{
     color: black;
     background-image:url("../images/comingsoon.jpg");
-    background-size: 185px;
+    background-size: 200px 200px;
     height: 220px;
     width: 50%;
     vertical-align: bottom;
