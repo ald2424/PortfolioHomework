@@ -147,6 +147,8 @@ td{
 }
 h6{
     background: #4aaaa5;
+    padding-top: .5em;
+    padding-bottom: .5em;
     color: white;
     width: 100%;
     text-align: center; 
