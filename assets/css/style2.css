@@ -1,0 +1,55 @@
+/* This file contains CSS for the portfolio and contact pages */
+
+/* css for form div */
+.formContent{
+    border: 2px solid #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #ffffff;
+    width: 500px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #7777
+}
+/* Customizing the submit button */
+input[type="submit"]{
+    background: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 5px;
+    
+}
+input[type="text"], textarea{
+    width: 495px;
+}
+
+/* CSS for table cells */
+td{
+    color: black;
+    background-image:url("../images/comingsoon.jpg");
+    background-size: 200px 200px;
+    height: 220px;
+    width: 50%;
+    vertical-align: bottom;
+    text-align: center;
+    padding: .5em;
+    
+}
+/* h6 will go inside the table cell */
+h6{
+    background: #4aaaa5;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: white;
+    width: 100%;
+    text-align: center; 
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    vertical-align: bottom;
+    font-size: 1em;
+}
+table{
+    border-spacing: 1em;
+    margin: auto;
+}
