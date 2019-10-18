@@ -7,11 +7,11 @@
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 50px;
-    padding: 20px;
+    padding: 28px;
     background: #ffffff;
-    width: 500px;
+    width: 900px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #7777
+    color:#777777
 }
 /* Customizing the submit button */
 input[type="submit"]{
@@ -19,17 +19,18 @@ input[type="submit"]{
     color: white;
     border: none;
     padding: 5px;
+    cursor: pointer;
     
 }
 input[type="text"], textarea{
-    width: 495px;
+    width: 100%;
     
 }
+/* Everything below is for the portfolio page */
 td{
     position: relative;
     padding-bottom: 5px;
 }
-/* h6 will go inside the table cell */
 #hangman{
     background: #4aaaa5;
     padding-top: .5em;
