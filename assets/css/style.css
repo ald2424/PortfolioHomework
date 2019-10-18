@@ -35,13 +35,6 @@ p{
 ul{
     list-style-type: none;
 }
-/* This puts my menu on the right side in horizontal order */
-.menu{
-    overflow: hidden;
-    /* min-width resolves issue with resizing screen */
-    min-width: 1000px;
-}
-/* Css for my menu */
 .menu a{
     float: right;
     color: #777777;
