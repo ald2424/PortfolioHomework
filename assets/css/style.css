@@ -1,6 +1,9 @@
 /* This file contains basic CSS found on all pages as well as the CSS specific to the index page */
 
 /* CSS for Name */
+.max{
+    max-width: 1700px;
+}
 h1{
     background: #4aaaa5;
     color: white;
