@@ -2,7 +2,8 @@
 
 /* CSS for Name */
 .max{
-    max-width: 1700px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 h1{
     background: #4aaaa5;
@@ -31,7 +32,6 @@ p{
 /* Main class is the header (my name) and my menu options */
 .main{
     background: #ffffff;
-    position: relative;
     height: 200px;
 }
 /* Removes bullets from unordered list (menu) */
